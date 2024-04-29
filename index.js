@@ -96,7 +96,7 @@ class QQ {
    * @param {String} path
    * @returns {Promise<buffer>}
    */
-  getCreateMiniCode(path) {
+  getAppletQrCode(path) {
     return new Promise(async (resolve, reject) => {
       if (!path) {
         reject("path is null");

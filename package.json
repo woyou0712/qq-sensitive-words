@@ -1,6 +1,6 @@
 {
   "name": "qq-sensitive-words",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "QQ小程序敏感词查询等常用功能",
   "main": "index.js",
   "scripts": {
