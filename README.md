@@ -26,7 +26,7 @@ qq.sensitiveWords("敏感词", "openid").then(({ bool, message }) => {
 
 // 获取小程序二维码
 const filePath = `./static/fileName.png`;
-const result = await qq.getCreateMiniCode("pages/code/code");
+const result = await qq.getAppletQrCode("pages/code/code");
 // 保存到本地
 fs.writeFileSync(filePath, result);
 ```
